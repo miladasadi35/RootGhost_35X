@@ -1,1 +1,39 @@
-# RootGhost_35X
+<!DOCTYPE html><html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Alert - 901X</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 40px;
+      direction: rtl;
+    }
+    .blink {
+      animation: blink-animation 1s steps(2, start) infinite;
+      -webkit-animation: blink-animation 1s steps(2, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2 class="blink">[هشدار امنیتی - 901X]</h2>
+  <p>سیستم تشخیص نفوذ فعال شد.</p>
+  <p>■ موقعیت شما در حال ثبت است...</p>
+  <p>■ آدرس IP: 192.168.*.*</p>
+  <p>■ وضعیت اتصال: <span style="color: red;">غیرایمن</span></p>
+  <p>■ سطح هشدار: <span style="color: red;">قرمز</span></p>
+  <br>
+  <p><strong>پیام سیستم:</strong> شما بدون مجوز وارد این دامنه شده‌اید.</p>
+  <p>داده‌های شما ممکن است برای بررسی ذخیره شوند.</p>
+  <p>برای خروج امن، مرورگر را ببندید.</p>
+  <br>
+  <p class="blink">[Connection Trace: ACTIVE]</p>
+</body>
+</html>
